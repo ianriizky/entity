@@ -1,0 +1,23 @@
+{
+    "name": "ianrizky/entity",
+    "description": "Handle data transfer object pattern in magic way",
+    "type": "library",
+    "require": {
+        "illuminate/collections": "9.x-dev",
+        "illuminate/contracts": "9.x-dev",
+        "illuminate/support": "9.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ianrizky\\Entity": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ianriizky",
+            "email": "ian.rizkypratama@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
